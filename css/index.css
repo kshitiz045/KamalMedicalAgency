@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .main {
+    padding: 10px;
+    text-align: center;
+    background-color: slateblue;
+    color: white;
+    border: 5px solid whitesmoke;
+  }
+
+  
+.box {
+    
+    width: 100vw;
+    background: url(../img/med-logo.png) center no-repeat;
+    height: 60vh;
+    animation: contact-bg 30s infinite;
+   background-size: 100% 100%;
+}
+
+@keyframes contact-bg {
+    0% {
+      background-color: orchid;
+    }
+    25% {
+      background-color: #ced8e4;
+    }
+    50% {
+      background-color: #1e81f3;
+    }
+    75% {
+      background-color: #ff7842;
+    }
+    100% {
+      background-color: gold;
+    }
+  }
+
+  .box-1 {
+    padding: 10px;
+    text-align: center;
+    background-color: slateblue;
+    color: white;
+    border: 5px solid whitesmoke;
+  }}
