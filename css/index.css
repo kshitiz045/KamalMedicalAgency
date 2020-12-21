@@ -21,7 +21,7 @@
     width: 100vw;
     background: url(../img/med-logo.png) center no-repeat;
     height: 60vh;
-    animation: contact-bg 30s infinite;
+    animation: contact-bg 10s infinite;
    background-size: 100% 100%;
 }
 
@@ -30,7 +30,7 @@
       background-color: orchid;
     }
     25% {
-      background-color: #ced8e4;
+      background-color: gray;
     }
     50% {
       background-color: #1e81f3;
